@@ -1,0 +1,13 @@
+﻿@model Epic.Domain.Entities.Age
+
+@{
+    ViewBag.Title = "StartNewAge";
+}
+
+<h2>StartNewAge</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.TextBoxFor(x=>x.Number)
+    <input type="submit" value="Save" />
+}

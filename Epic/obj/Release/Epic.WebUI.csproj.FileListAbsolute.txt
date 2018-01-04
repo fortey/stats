@@ -1,0 +1,166 @@
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Epic.dll.config
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Epic.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Epic.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Antlr3.Runtime.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\EntityFramework.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\EntityFramework.SqlServer.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Epic.Domain.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Hangfire.Core.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Hangfire.SqlServer.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Newtonsoft.Json.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Owin.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.Helpers.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.Mvc.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.Optimization.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.Razor.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.WebPages.Deployment.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.WebPages.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.WebPages.Razor.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\WebGrease.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Epic.Domain.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Hangfire.Core.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Hangfire.SqlServer.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.Helpers.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.Mvc.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.Optimization.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.Razor.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.WebPages.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.WebPages.Deployment.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\System.Web.WebPages.Razor.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Newtonsoft.Json.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Antlr3.Runtime.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\EntityFramework.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\EntityFramework.SqlServer.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\es\Hangfire.Core.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\zh\Hangfire.Core.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\System.Web.Razor.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\EntityFramework.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\obj\Release\Epic.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\obj\Release\Epic.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\obj\Release\Epic.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic\bin\WebActivatorEx.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\obj\Release\Epic.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\obj\Release\Epic.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\obj\Release\Epic.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Epic.dll.config
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Epic.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Epic.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Antlr3.Runtime.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\EntityFramework.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\EntityFramework.SqlServer.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Epic.Domain.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Hangfire.Core.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Hangfire.SqlServer.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Newtonsoft.Json.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Owin.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.Helpers.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.Mvc.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.Optimization.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.Razor.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.WebPages.Deployment.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.WebPages.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.WebPages.Razor.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\WebActivatorEx.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\WebGrease.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Epic.Domain.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Hangfire.Core.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Hangfire.SqlServer.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.Helpers.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.Mvc.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.Optimization.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.Razor.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.WebPages.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.WebPages.Deployment.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Web.WebPages.Razor.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Newtonsoft.Json.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Antlr3.Runtime.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\EntityFramework.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\EntityFramework.SqlServer.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\es\Hangfire.Core.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\zh\Hangfire.Core.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\System.Web.Razor.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\EntityFramework.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll

@@ -1,0 +1,28 @@
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\Epic.Domain.dll.config
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\Epic.Domain.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\Epic.Domain.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\EntityFramework.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\EntityFramework.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\obj\Debug\Epic.Domain.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\obj\Debug\Epic.Domain.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic\Epic.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\fortey\documents\visual studio 2013\Projects\Epic\Epic.Domain\obj\Debug\Epic.Domain.csprojResolveAssemblyReference.cache
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\Epic.Domain.dll.config
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\Epic.Domain.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\Epic.Domain.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\EntityFramework.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\EntityFramework.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\obj\Debug\Epic.Domain.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\obj\Debug\Epic.Domain.pdb
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\obj\Debug\Epic.Domain.csprojResolveAssemblyReference.cache
