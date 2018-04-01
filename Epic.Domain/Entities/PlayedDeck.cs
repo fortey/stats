@@ -14,8 +14,7 @@ namespace Epic.Domain.Entities
         public DateTime Date { get; set; }
         public string Description { get; set; }
         public bool Condition { get; set; }
-        public int Player { get; set; }
-        [MaxLength(30)]
+        public int PlayerId { get; set; }
         public string User { get; set; }
     }
 }

@@ -180,22 +180,36 @@
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\FillController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IntelligenceController.cs" />
+    <Compile Include="Controllers\ResultsController.cs" />
+    <Compile Include="Controllers\RoleController.cs" />
     <Compile Include="EFDbContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HtmlHelpers\PagingHelpers.cs" />
+    <Compile Include="Migrations\201712300520266_InitialCreate.cs" />
+    <Compile Include="Migrations\201712300520266_InitialCreate.Designer.cs">
+      <DependentUpon>201712300520266_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Log.cs" />
     <Compile Include="Models\PagingInfo.cs" />
     <Compile Include="Models\PlayedDeckListViewModel.cs" />
+    <Compile Include="Models\ResultListModelView.cs" />
+    <Compile Include="Models\RoleModel.cs" />
     <Compile Include="Models\StatsListViewModel.cs" />
     <Compile Include="Models\StatsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\IntelligenceDB.mdf" />
+    <Content Include="App_Data\IntelligenceDB_log.ldf">
+      <DependentUpon>IntelligenceDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -365,9 +379,18 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Chart.cshtml" />
     <Content Include="Views\Home\Epic.cshtml" />
+    <Content Include="Views\Results\List.cshtml" />
+    <Content Include="Views\Results\Index.cshtml" />
+    <Content Include="Views\Admin\SaveResult.cshtml" />
+    <Content Include="Views\Role\Index.cshtml" />
+    <Content Include="Views\Role\Create.cshtml" />
+    <Content Include="Views\Role\Edit.cshtml" />
+    <Content Include="Views\Intelligence\NewDeckType.cshtml" />
+    <Content Include="Views\Intelligence\DeckTypesList.cshtml" />
+    <Content Include="Views\Intelligence\PlayerInfo.cshtml" />
+    <Content Include="Views\Intelligence\NewRecord.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Views\Fill\" />
   </ItemGroup>
   <ItemGroup>
@@ -379,6 +402,11 @@
       <Project>{d00bf321-07be-4ce6-aa78-fcab51ed28b7}</Project>
       <Name>Epic.Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201712300520266_InitialCreate.resx">
+      <DependentUpon>201712300520266_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

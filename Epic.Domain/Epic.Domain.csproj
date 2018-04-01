@@ -58,11 +58,15 @@
     <Compile Include="Abstract\IPlayerRepository.cs" />
     <Compile Include="Concrete\EFDbContext.cs" />
     <Compile Include="Concrete\EFPlayerRepository.cs" />
+    <Compile Include="Concrete\IntelligenceContext.cs" />
+    <Compile Include="Concrete\IntelligenceRepository.cs" />
     <Compile Include="Entities\Age.cs" />
     <Compile Include="Entities\Clan.cs" />
     <Compile Include="Entities\DeckType.cs" />
     <Compile Include="Entities\PlayedDeck.cs" />
     <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\Result.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CurrentStat.cs" />
     <Compile Include="Models\JsonClasses.cs" />
     <Compile Include="Models\StatsService.cs" />

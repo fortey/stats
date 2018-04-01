@@ -164,3 +164,5 @@ C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\obj\Release\Epic.Migrations.InitialCreate.resources
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\obj\Release\Epic.WebUI.csproj.GenerateResource.Cache

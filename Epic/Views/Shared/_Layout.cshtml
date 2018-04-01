@@ -4,10 +4,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Клан Epic</title>
+    <title>@ViewBag.Title</title>
     <link href="~/Content/Site.css" type="text/css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/Scripts/jquery-1.12.4.js")
+    @Scripts.Render("~/Scripts/jquery-ui-1.12.1.js")
+    @Scripts.Render("~/Scripts/bootstrap.js")
+    @Scripts.Render("~/Scripts/bootstrap-datepicker.js")
     
 </head>
 <body>
@@ -20,6 +24,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 @Html.ActionLink("Статистика", "Index", "Home", null, new { @class = "navbar-brand" })
+                @Html.ActionLink("Результаты", "Index", "Results", null, new { @class = "navbar-brand" })
                 @if(User.IsInRole("Admin")){@Html.ActionLink("Adminka", "Index", "Admin", null, new { @class = "navbar-brand" })}
                 <a href="http://berserktcg.clan.su" class="navbar-brand">Форум</a></div>
         </div>

@@ -13,5 +13,7 @@ namespace Epic.Domain.Concrete
         public DbSet<PlayerStat> PlayerStats { get; set; }
         public DbSet<Clan> Clans { get; set; }
         public DbSet<Age> Ages { get; set; }
+        public DbSet<AgeResult> AgeResults { get; set; }
+        public DbSet<ResultStat> ResultStats { get; set; }
     }
 }

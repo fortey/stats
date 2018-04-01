@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Epic.Domain.Entities.PlayedDeck>
+
+@{
+    ViewBag.Title = "PlayerInfo";
+}
+
+<h2>PlayerInfo</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NewRecord", new { playerId = ViewBag.playerId })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Condition)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.User)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Condition)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.User)
+        </td>
+    </tr>
+}
+
+</table>
