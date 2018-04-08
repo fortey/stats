@@ -10,7 +10,7 @@ namespace Epic.Domain.Entities
     public class PlayedDeck
     {
         public int PlayedDeckId { get; set; }
-        public DeckType DeckType { get; set; }
+        public string DeckType { get; set; }
         public DateTime Date { get; set; }
         public string Description { get; set; }
         public bool Condition { get; set; }

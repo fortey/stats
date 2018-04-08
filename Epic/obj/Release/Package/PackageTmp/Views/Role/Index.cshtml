@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Epic.Models.UserModel>
+@{
+    ViewBag.Title = "Роли";
+}
+
+
+<table class="table">
+   <thead>
+       <tr>
+           <th>Пользователи</th>
+           <th></th>
+       </tr>
+   </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.ActionLink("Edit", "Edit", new { id = item.Id, name = item.Name })</td>
+            </tr>
+        }
+    </tbody>
+</table>

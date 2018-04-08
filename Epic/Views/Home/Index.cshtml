@@ -44,7 +44,14 @@
                         @Html.DisplayFor(modelItem => item.clan.title)
                     </td>
                     <td nowrap>
-                        @Html.ActionLink(item.nick, "PlayerInfo", "Intelligence", new { playerId = item.ID }, new { @class = "Info" })
+                        @if (ViewBag.IsEpic)
+                        {
+                            @Html.ActionLink(item.nick, "PlayerInfo", "Intelligence", new { playerId = item.ID }, new { @class = "Info" })
+                        }
+                        else
+                        {
+                            @Html.DisplayFor(modelItem => item.nick)
+                        }
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.level)

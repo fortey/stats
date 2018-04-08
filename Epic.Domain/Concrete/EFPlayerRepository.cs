@@ -135,7 +135,28 @@ namespace Epic.Domain.Concrete
             }
             context.SaveChanges();
         }
-        
-              
+
+        public IQueryable<DeckType> DeckTypes
+        {
+            get { return context.DeckTypes; }
+        }
+
+        public void SaveDeckType(DeckType deckType)
+        {
+            if (deckType.DeckTypeId == 0)
+            {
+                context.DeckTypes.Add(deckType);
+            }
+            else
+            {
+                DeckType dbEntry = context.DeckTypes.Find(deckType.DeckTypeId);
+                if (dbEntry != null)
+                {
+                    dbEntry.Name = deckType.Name;
+                    dbEntry.Description = deckType.Description;
+                }
+            }
+            context.SaveChanges();
+        }
     }
 }

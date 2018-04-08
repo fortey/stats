@@ -166,3 +166,15 @@ C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\obj\Debug\Epic.pdb
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\obj\Debug\Epic.Migrations.InitialCreate.resources
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\obj\Debug\Epic.WebUI.csproj.GenerateResource.Cache
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\Firebase.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Reactive.Linq.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Reactive.Core.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Reactive.Interfaces.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Reactive.Linq.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Reactive.Core.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Reactive.Interfaces.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Reactive.PlatformServices.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Reactive.Windows.Threading.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Reactive.PlatformServices.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic\bin\System.Reactive.Windows.Threading.xml

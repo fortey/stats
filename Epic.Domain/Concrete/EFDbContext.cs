@@ -15,5 +15,6 @@ namespace Epic.Domain.Concrete
         public DbSet<Age> Ages { get; set; }
         public DbSet<AgeResult> AgeResults { get; set; }
         public DbSet<ResultStat> ResultStats { get; set; }
+        public DbSet<DeckType> DeckTypes { get; set; }
     }
 }

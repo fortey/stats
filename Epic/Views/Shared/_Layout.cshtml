@@ -25,8 +25,9 @@
                 </button>
                 @Html.ActionLink("Статистика", "Index", "Home", null, new { @class = "navbar-brand" })
                 @Html.ActionLink("Результаты", "Index", "Results", null, new { @class = "navbar-brand" })
-                @if(User.IsInRole("Admin")){@Html.ActionLink("Adminka", "Index", "Admin", null, new { @class = "navbar-brand" })}
+                @if(User.IsInRole("Admin")){@Html.ActionLink("Админка", "Index", "Admin", null, new { @class = "navbar-brand" })}
                 <a href="http://berserktcg.clan.su" class="navbar-brand">Форум</a></div>
+            @Html.Partial("_LoginPartial")
         </div>
     </div>
     <div class="container body-content">

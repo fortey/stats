@@ -14,7 +14,7 @@ namespace Epic.Controllers
         [Authorize]
         public void Index()
         {
-            StatsService.Start();
+            //StatsService.Start();
         }
 	}
 }

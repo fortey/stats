@@ -44,8 +44,14 @@
                         @Html.DisplayFor(modelItem => item.clan.title)
                     </td>
                     <td nowrap>
-                        @Html.ActionLink(item.nick, "Chart",
-          new { id = item.ID }, new { @class = "Chart" })
+                        @if (ViewBag.IsEpic)
+                        {
+                            @Html.ActionLink(item.nick, "PlayerInfo", "Intelligence", new { playerId = item.ID }, new { @class = "Info" })
+                        }
+                        else
+                        {
+                            @Html.DisplayFor(modelItem => item.nick)
+                        }
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.level)
@@ -57,7 +63,8 @@
                         @Html.DisplayFor(modelItem => item.deaths)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.curFrags)
+                        @Html.ActionLink(item.curFrags.ToString(), "Chart",
+          new { id = item.ID }, new { @class = "Chart" })
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.curDeaths)

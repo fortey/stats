@@ -1,0 +1,14 @@
+﻿@model Epic.Models.EditUserRoles
+
+@{
+    ViewBag.Title = "Edit " + Model.UserName;
+}
+
+<h2>Edit</h2>
+
+<form class="form-inline" role="form">
+    @Html.DropDownList("RoleName", Model.Roles, new { @class = "form-control" })
+    @Html.HiddenFor(model => Model.UserId)
+    @Html.HiddenFor(model => Model.UserName)
+    <input type="submit" class="btn" value="Добавить" formmethod="post" />
+</form>
