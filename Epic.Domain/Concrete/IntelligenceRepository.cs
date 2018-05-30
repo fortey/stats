@@ -11,7 +11,7 @@ namespace Epic.Domain.Concrete
 {
     public class IntelligenceRepository
     {
-        FirebaseClient firebase = new FirebaseClient("https://stats-ba8.firebaseio.com");
+        FirebaseClient firebase = new FirebaseClient("");
        
         public async Task<FirebaseObject<string>> SavePlayedDeck(PlayedDeck playedDeck, int playerId)
         {
