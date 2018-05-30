@@ -25,3 +25,17 @@ C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\EntityFramework.SqlServer.xml
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\Microsoft.AspNet.Identity.Core.xml
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\Firebase.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\Newtonsoft.Json.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.Core.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.Interfaces.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.Linq.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.PlatformServices.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.Windows.Threading.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\Newtonsoft.Json.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.Core.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.Interfaces.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.Linq.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.PlatformServices.xml
+C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.Windows.Threading.xml

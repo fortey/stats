@@ -63,7 +63,7 @@ namespace Epic.Controllers
 
         //
         // GET: /Account/Register
-        [Authorize]
+        [AllowAnonymous]
         public ActionResult Register()
         {
             return View();
@@ -72,7 +72,7 @@ namespace Epic.Controllers
         //
         // POST: /Account/Register
         [HttpPost]
-        [Authorize]
+        [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {

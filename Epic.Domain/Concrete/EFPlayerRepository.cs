@@ -23,6 +23,16 @@ namespace Epic.Domain.Concrete
         {
             get { return context.Ages; }
         }
+
+        public IQueryable<ResultStat> ResultStats
+        {
+            get { return context.ResultStats.Include("Clan"); }
+        }
+        public IQueryable<AgeResult> AgeResults
+        {
+            get { return context.AgeResults; }
+        }
+
         public void SavePlayers(List<PlayerStat> players)
         {
             foreach (var player in players)
@@ -34,6 +44,31 @@ namespace Epic.Domain.Concrete
                 else
                 {
                     PlayerStat dbEntry = context.PlayerStats.Find(player.PlayerStatID);
+                    if (dbEntry != null)
+                    {
+                        dbEntry.nick = player.nick;
+                        dbEntry.level = player.level;
+                        dbEntry.frags = player.frags;
+                        dbEntry.deaths = player.deaths;
+                        dbEntry.clan = player.clan;
+                        dbEntry.Time = player.Time;
+                    }
+                }
+            }
+            context.SaveChanges();
+        }
+
+        public void SaveResults(List<ResultStat> players)
+        {
+            foreach (var player in players)
+            {
+                if (player.ResultStatID == 0)
+                {
+                    context.ResultStats.Add(player);
+                }
+                else
+                {
+                    ResultStat dbEntry = context.ResultStats.Find(player.ResultStatID);
                     if (dbEntry != null)
                     {
                         dbEntry.nick = player.nick;
@@ -71,7 +106,23 @@ namespace Epic.Domain.Concrete
                     context.Ages.Add(age);
             
             context.SaveChanges();
-        } 
+        }
+
+        public void SaveAgeResult(AgeResult age)
+        {
+            AgeResult dbEntry = context.AgeResults.FirstOrDefault(x => x.AgeResultID == age.AgeResultID);
+            if (dbEntry != null)
+            {
+                dbEntry.Time = age.Time;
+                dbEntry.Name = age.Name;
+                dbEntry.Price = age.Price;
+            }
+            else
+                context.AgeResults.Add(age);
+
+            context.SaveChanges();
+        }
+
         public void DeleteStats(List<PlayerStat> stats)
         {
             foreach (var stat in stats)
@@ -83,6 +134,29 @@ namespace Epic.Domain.Concrete
                 }
             }
             context.SaveChanges();
-        }      
+        }
+
+        public IQueryable<DeckType> DeckTypes
+        {
+            get { return context.DeckTypes; }
+        }
+
+        public void SaveDeckType(DeckType deckType)
+        {
+            if (deckType.DeckTypeId == 0)
+            {
+                context.DeckTypes.Add(deckType);
+            }
+            else
+            {
+                DeckType dbEntry = context.DeckTypes.Find(deckType.DeckTypeId);
+                if (dbEntry != null)
+                {
+                    dbEntry.Name = deckType.Name;
+                    dbEntry.Description = deckType.Description;
+                }
+            }
+            context.SaveChanges();
+        }
     }
 }

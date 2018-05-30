@@ -1,0 +1,51 @@
+﻿@model Epic.Domain.Entities.PlayedDeck
+
+@{
+    ViewBag.Title = "Новая запись " + ViewBag.playerId.ToString();
+}
+
+<h2>Новая запись</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            @Html.Label("Колода", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("DeckType", (SelectList)ViewBag.deckTypeList, new { @class = "form-control" })      
+                @Html.ActionLink("Новая колода", "NewDeckType", new { playerId = ViewBag.playerId })          
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Комментарий", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Description)
+                @Html.ValidationMessageFor(model => model.Description)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Условия", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Condition)
+                @Html.ValidationMessageFor(model => model.Condition)
+            </div>
+        </div>
+        @Html.HiddenFor(model => model.PlayerId)
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Создать" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "PlayerInfo", new { playerId = ViewBag.playerId })
+</div>

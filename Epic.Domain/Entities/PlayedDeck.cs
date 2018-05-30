@@ -10,12 +10,11 @@ namespace Epic.Domain.Entities
     public class PlayedDeck
     {
         public int PlayedDeckId { get; set; }
-        public DeckType DeckType { get; set; }
+        public string DeckType { get; set; }
         public DateTime Date { get; set; }
         public string Description { get; set; }
         public bool Condition { get; set; }
-        public int Player { get; set; }
-        [MaxLength(30)]
+        public int PlayerId { get; set; }
         public string User { get; set; }
     }
 }

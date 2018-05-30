@@ -43,6 +43,7 @@ namespace Epic.Controllers
                 Clans = new SelectList(repository.Clans, "ClanID", "title"),
                 Date = DateTime.Today
             };
+            ViewBag.IsEpic = User.IsInRole("Epic") || User.IsInRole("Admin");
             return View(StatsModel);
         }
         [HttpPost]
@@ -75,6 +76,7 @@ namespace Epic.Controllers
                 Clans = new SelectList(repository.Clans, "ClanID", "title"),
                 Date = Date
             };
+            ViewBag.IsEpic = User.IsInRole("Epic") || User.IsInRole("Admin");
             if (clanId == 8)
                 return View("Epic", StatsModel);
             else

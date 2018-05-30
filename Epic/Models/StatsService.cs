@@ -42,8 +42,8 @@ public static void StartOP()
             var lastAge = repository.Ages.OrderByDescending(x=>x.StartTime).FirstOrDefault();
             if (lastAge != null)
             {
-                var oldTime = DateTime.Today.AddDays(-7);
-                var oldStats = repository.PlayerStats.Where(x => x.Time < oldTime).ToList();
+                var oldTime = DateTime.Today.AddDays(-14);
+                var oldStats = repository.PlayerStats.Where(x => x.Time < oldTime && x.Time != lastAge.StartTime).ToList();
                 repository.DeleteStats(oldStats);
                 var StartStats = repository.PlayerStats.Where(x => x.Time == lastAge.StartTime);
                 var lastStats = repository.PlayerStats.Where(x => x.Time == time);

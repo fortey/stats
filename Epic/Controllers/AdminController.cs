@@ -11,6 +11,7 @@ using System.Web.Mvc;
 
 namespace Epic.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
         private IPlayerRepository repository;
@@ -24,14 +25,12 @@ namespace Epic.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public ActionResult StartNewAge()
         {
             return View();
         }
 
         [HttpPost]
-        [Authorize]
         public ActionResult StartNewAge(Age age)
         {
             age.StartTime = DateTime.Now ;
@@ -63,5 +62,38 @@ namespace Epic.Controllers
             repository.SavePlayers(players);
             return View();
         }
-	}
+
+        [HttpGet]
+        public ActionResult SaveResult()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult SaveResult(double price)
+        {
+            var lastAge = repository.Ages.OrderByDescending(x => x.StartTime).FirstOrDefault();
+            var lastStat = repository.PlayerStats.OrderByDescending(x => x.Time).FirstOrDefault();
+            if(lastAge == null || lastStat == null)
+                return View();
+            var stats = repository.PlayerStats.Where(x => x.Time == lastStat.Time).ToList();
+            var resultStats = stats.Select(x => new ResultStat
+            {
+                ID = x.ID,
+                nick = x.nick,
+                level = x.level,
+                frags = x.frags,
+                deaths = x.deaths,
+                clan = x.clan,
+                Time = x.Time,
+                curFrags = x.curFrags,
+                curDeaths = x.curDeaths
+            }).ToList();
+
+            var result = new AgeResult { Name = lastAge.Number.ToString() + " Эра " + lastStat.Time.ToString(@"dd\/ MM\/ yyyy"), Time = lastStat.Time, Price = price };
+            repository.SaveAgeResult(result);
+            repository.SaveResults(resultStats);
+            return View("Index");
+        }
+    }
 }
