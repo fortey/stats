@@ -15,7 +15,7 @@ namespace Epic
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DbContext>());
             ConfigureAuth(app);
             GlobalConfiguration.Configuration
-                .UseSqlServerStorage(@"workstation id=statistic.mssql.somee.com;packet size=4096;user id=fort3_SQLLogin_1;pwd=8dcok2hm58;data source=statistic.mssql.somee.com;persist security info=False;initial catalog=statistic");
+                .UseSqlServerStorage(@"");
             app.UseHangfireDashboard();
             app.UseHangfireServer();
             RecurringJob.AddOrUpdate(() => StatsService.Start(), Cron.Hourly);
