@@ -14,7 +14,8 @@ namespace Epic.Controllers
     [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
-        private IPlayerRepository repository;
+        private EFPlayerRepository repository;
+
         public AdminController()
         {
             this.repository = new EFPlayerRepository();
@@ -94,6 +95,12 @@ namespace Epic.Controllers
             repository.SaveAgeResult(result);
             repository.SaveResults(resultStats);
             return View("Index");
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            repository.Dispose();
+            base.Dispose(disposing);
         }
     }
 }

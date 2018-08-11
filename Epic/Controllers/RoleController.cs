@@ -17,7 +17,7 @@ namespace Epic.Controllers
         // GET: Role
         public ActionResult Index()
         {
-            return View(context.Users.Select(x => new UserModel { Name = x.UserName, Id = x.Id }));
+            return View(context.Users.Select(x => new UserModel { Name = x.UserName, Id = x.Id, Roles = x.Roles.Select(y => y.Role.Name) }));
         }
 
         // GET: Role/Details/5
@@ -56,11 +56,19 @@ namespace Epic.Controllers
         }
 
         // GET: Role/Edit/5
-        public ActionResult Edit(string id, string name)
+        public ActionResult Edit(string id)
         {
-            var roles = new SelectList(context.Roles.Select(x => new EditRoleModel { Name = x.Name, Id = x.Id }), "Name", "Name");
-            var userRolesModel = new EditUserRoles { Roles = roles, UserId = id, UserName = name };
-            return View(userRolesModel);
+            var user = context.Users.FirstOrDefault(x => x.Id == id);
+            if (user == null)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                var roles = new SelectList(context.Roles.Select(x => new EditRoleModel { Name = x.Name, Id = x.Id }), "Name", "Name");
+                var userRolesModel = new EditUserRoles { Roles = roles, UserId = id, UserName = user.UserName, HavingRoles = user.Roles };
+                return View(userRolesModel);
+            }
         }
 
         // POST: Role/Edit/5
@@ -71,6 +79,22 @@ namespace Epic.Controllers
             {
                 var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
                 userManager.AddToRole(UserId, RoleName);
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        [HttpPost]
+        public ActionResult DeleteRole(string role, string userId)
+        {
+            try
+            {
+                var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
+                userManager.RemoveFromRole(userId, role);
 
                 return RedirectToAction("Index");
             }
@@ -100,6 +124,12 @@ namespace Epic.Controllers
             {
                 return View();
             }
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            context.Dispose();
+            base.Dispose(disposing);
         }
     }
 }

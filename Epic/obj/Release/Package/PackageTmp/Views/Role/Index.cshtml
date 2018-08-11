@@ -8,16 +8,21 @@
    <thead>
        <tr>
            <th>Пользователи</th>
+           <th>Роли</th>
            <th></th>
        </tr>
    </thead>
     <tbody>
         @foreach(var item in Model)
         {
-            <tr>
-                <td>@Html.DisplayFor(modelItem => item.Name)</td>
-                <td>@Html.ActionLink("Edit", "Edit", new { id = item.Id, name = item.Name })</td>
-            </tr>
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Name)</td>
+            <td>@foreach (var role in item.Roles)
+            {
+                <p>@role</p>
+            }</td>
+            <td>@Html.ActionLink("Edit", "Edit", new { id = item.Id})</td>
+        </tr>
         }
     </tbody>
 </table>

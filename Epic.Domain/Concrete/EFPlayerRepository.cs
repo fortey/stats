@@ -158,5 +158,10 @@ namespace Epic.Domain.Concrete
             }
             context.SaveChanges();
         }
+
+        public void Dispose()
+        {
+            context.Dispose();
+        }
     }
 }

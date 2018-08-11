@@ -16,7 +16,7 @@ namespace Epic
             ConfigureAuth(app);
             GlobalConfiguration.Configuration
                 .UseSqlServerStorage(@"");
-            app.UseHangfireDashboard();
+            //app.UseHangfireDashboard();
             app.UseHangfireServer();
             RecurringJob.AddOrUpdate(() => StatsService.Start(), Cron.Hourly);
         }

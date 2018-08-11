@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -21,11 +22,13 @@ namespace Epic.Models
     {
         public string Id { get; set; }
         public string Name { get; set; }
+        public IEnumerable<string> Roles { get; set; }
     }
     public class EditUserRoles
     {
         public SelectList Roles { get; set; }
         public string UserId { get; set; }
         public string UserName { get; set; }
+        public ICollection<IdentityUserRole> HavingRoles { get; set; }
     }
 }

@@ -47,7 +47,7 @@ namespace Epic.Controllers
         [HttpPost]
         public ActionResult NewDeckType(DeckType deckType, int playerId = 0)
         {
-            if (statsRepository.DeckTypes.Where(x => x.Name == deckType.Name).Count() > 0)
+            if (statsRepository.DeckTypes.Count(x => x.Name == deckType.Name) > 0)
                 return View();
             statsRepository.SaveDeckType(deckType);
             if (playerId == 0)
@@ -58,6 +58,13 @@ namespace Epic.Controllers
             {        
                 return RedirectToAction("NewRecord",new { playerId });
             }
+        }
+
+        [HttpGet]
+        public ActionResult Deck(string name)
+        {
+            var deck = statsRepository.DeckTypes.FirstOrDefault(x => x.Name == name);
+            return View(deck);
         }
 
         public ActionResult DeckTypesList()
@@ -74,7 +81,13 @@ namespace Epic.Controllers
             var records = intelRepository.PlayedDeckes(playerId).Result;
             if(records.Count>0)
                 return View(records.Select(x => x.Object).OrderByDescending(x => x.Date));
-            return View();
+            return View(new List<PlayedDeck>());
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            statsRepository.Dispose();
+            base.Dispose(disposing);
         }
     }
 }

@@ -139,5 +139,11 @@ namespace Epic.Controllers
 
             return null;
         }
+
+        protected override void Dispose(bool disposing)
+        {
+            repository.Dispose();
+            base.Dispose(disposing);
+        }
     }
 }

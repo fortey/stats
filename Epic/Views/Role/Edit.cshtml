@@ -12,3 +12,25 @@
     @Html.HiddenFor(model => Model.UserName)
     <input type="submit" class="btn" value="Добавить" formmethod="post" />
 </form>
+
+<p></p>
+<div>
+    <table>
+        <tbody>
+            @foreach (var role in Model.HavingRoles)
+            {
+                <tr>
+                    <td>@role.Role.Name</td>
+                    <td>
+                        @using (Html.BeginForm("DeleteRole", "Role"))
+                        {
+                            @Html.Hidden("role", role.Role.Name)
+                            @Html.Hidden("userId", Model.UserId)
+                            <input type="submit" value="Удалить" />
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

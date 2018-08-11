@@ -39,3 +39,34 @@ C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.Linq.xml
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.PlatformServices.xml
 C:\Users\fortey\Documents\Visual Studio 2013\Projects\Epic — Constructor\Epic.Domain\bin\Release\System.Reactive.Windows.Threading.xml
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Epic.Domain.dll.config
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Epic.Domain.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Epic.Domain.pdb
+E:\VS projects\Stats work\Epic.Domain\bin\Release\EntityFramework.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\EntityFramework.SqlServer.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Firebase.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Microsoft.AspNet.Identity.Core.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Newtonsoft.Json.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Reactive.Core.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Reactive.Interfaces.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Reactive.Linq.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Reactive.PlatformServices.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Reactive.Windows.Threading.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\VS projects\Stats work\Epic.Domain\bin\Release\EntityFramework.xml
+E:\VS projects\Stats work\Epic.Domain\bin\Release\EntityFramework.SqlServer.xml
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Microsoft.AspNet.Identity.Core.xml
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Newtonsoft.Json.xml
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Reactive.Core.xml
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Reactive.Interfaces.xml
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Reactive.Linq.xml
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Reactive.PlatformServices.xml
+E:\VS projects\Stats work\Epic.Domain\bin\Release\System.Reactive.Windows.Threading.xml
+E:\VS projects\Stats work\Epic.Domain\obj\Release\Epic.Domain.csprojAssemblyReference.cache
+E:\VS projects\Stats work\Epic.Domain\obj\Release\Epic.Domain.csproj.CoreCompileInputs.cache
+E:\VS projects\Stats work\Epic.Domain\obj\Release\Epic.Domain.csproj.CopyComplete
+E:\VS projects\Stats work\Epic.Domain\obj\Release\Epic.Domain.dll
+E:\VS projects\Stats work\Epic.Domain\obj\Release\Epic.Domain.pdb
+E:\VS projects\Stats work\Epic.Domain\bin\Release\Firebase.Auth.dll

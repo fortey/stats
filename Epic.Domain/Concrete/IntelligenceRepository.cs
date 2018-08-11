@@ -11,10 +11,9 @@ namespace Epic.Domain.Concrete
 {
     public class IntelligenceRepository
     {
-        FirebaseClient firebase = new FirebaseClient("");
-       
         public async Task<FirebaseObject<string>> SavePlayedDeck(PlayedDeck playedDeck, int playerId)
         {
+            var firebase = FirebaseClient();
             JavaScriptSerializer serializer = new JavaScriptSerializer();
             string jsonDeck = serializer.Serialize(playedDeck);
             var result = await firebase.Child(playerId.ToString()).PostAsync(jsonDeck);
@@ -22,8 +21,14 @@ namespace Epic.Domain.Concrete
         }
 
         public Task<IReadOnlyCollection<FirebaseObject<PlayedDeck>>> PlayedDeckes(int playerId)
-        {         
+        {
+            var firebase = FirebaseClient();
             return firebase.Child(playerId.ToString()).OnceAsync<PlayedDeck>();
+        }
+
+        public FirebaseClient FirebaseClient()
+        {       
+           return new FirebaseClient("https://stats-ba8.firebaseio.com", new FirebaseOptions { AuthTokenAsyncFactory = () => Task.FromResult("y3xp2EYqBiVCmcEkx5DmZcq4C8KfWLfEDePV7N3D") });
         }
     }
 }
